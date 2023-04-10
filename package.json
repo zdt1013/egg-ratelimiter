@@ -46,7 +46,7 @@
     "url": "git+https://github.com/zdt1013/egg-ratelimiter.git"
   },
   "bugs": {
-    "url": "https://github.com/zdt1013/egg/issues"
+    "url": "https://github.com/zdt1013/egg-ratelimiter/issues"
   },
   "homepage": "https://github.com/zdt1013/egg-ratelimiter#readme",
   "author": "zdt",
