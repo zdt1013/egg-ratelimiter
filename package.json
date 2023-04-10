@@ -1,5 +1,5 @@
 {
-  "name": "egg-ratelimiter",
+  "name": "egg-ratelimiter3",
   "version": "1.0.0",
   "description": "egg限流插件",
   "eggPlugin": {
