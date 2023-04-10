@@ -1,0 +1,54 @@
+{
+  "name": "egg-ratelimiter",
+  "version": "1.0.0",
+  "description": "egg限流插件",
+  "eggPlugin": {
+    "name": "ratelimiter"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "rolling-rate-limiter": "^0.4.2"
+  },
+  "devDependencies": {
+    "egg": "^3",
+    "egg-bin": "^5",
+    "egg-ci": "^2",
+    "egg-mock": "^5",
+    "eslint": "^8",
+    "eslint-config-egg": "^12"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "middleware",
+    "app"
+  ],
+  "ci": {
+    "version": "16, 18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdt1013/egg-ratelimiter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zdt1013/egg/issues"
+  },
+  "homepage": "https://github.com/zdt1013/egg-ratelimiter#readme",
+  "author": "zdt",
+  "license": "MIT"
+}
