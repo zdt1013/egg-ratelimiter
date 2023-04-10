@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-ratelimiter --save
+$ npm i egg-ratelimiter3 --save
 ```
 
 ## Usage
