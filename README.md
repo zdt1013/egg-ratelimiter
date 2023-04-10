@@ -28,6 +28,8 @@ Description here.
 
 ```bash
 $ npm i egg-ratelimiter3 --save
+or
+$ pnpm add egg-ratelimiter3
 ```
 
 ## Usage
