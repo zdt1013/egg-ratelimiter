@@ -36,6 +36,7 @@
     "agent.js",
     "config",
     "middleware",
+    "lib",
     "app"
   ],
   "ci": {
