@@ -46,8 +46,13 @@ exports.ratelimiter = {
 
 ```js
 // {app_root}/config/config.default.js
+// must set redis config
+exports.redis ={
+  client:...
+}
 exports.ratelimiter = {
-};
+
+}
 ```
 
 see [config/config.default.js](config/config.default.js) for more detail.
@@ -58,7 +63,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/zdt1013/egg-ratelimiter3/issues).
 
 ## Thanks
 [rolling-rate-limiter](https://github.com/peterkhayes/rolling-rate-limiter)

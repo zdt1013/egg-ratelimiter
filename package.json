@@ -34,6 +34,7 @@
   "files": [
     "app.js",
     "agent.js",
+    "index.d.ts",
     "config",
     "middleware",
     "lib",
@@ -44,12 +45,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zdt1013/egg-ratelimiter.git"
+    "url": "git+https://github.com/zdt1013/egg-ratelimiter3.git"
   },
   "bugs": {
-    "url": "https://github.com/zdt1013/egg-ratelimiter/issues"
+    "url": "https://github.com/zdt1013/egg-ratelimiter3/issues"
   },
-  "homepage": "https://github.com/zdt1013/egg-ratelimiter#readme",
+  "homepage": "https://github.com/zdt1013/egg-ratelimiter3#readme",
   "author": "zdt",
   "license": "MIT"
 }
